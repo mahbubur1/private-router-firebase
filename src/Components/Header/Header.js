@@ -13,6 +13,7 @@ const Header = () => {
         <div className='header'>
             <Link to='/'>HOME</Link>
             <Link to='/products'>PRODUCTS</Link>
+            <Link to='/orders'> Orders</Link>
             <Link to='/register'>Register</Link>
             <span>{user?.displayName && user.displayName}  </span>
             {
